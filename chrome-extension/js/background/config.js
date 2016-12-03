@@ -90,6 +90,28 @@ var CONFIG = {
 			topContributors: [ // Top 3 contributors of fixes & improvements, excluding the creator
 			]
 		},
+		'docs': {
+			key: 'docs', // Must be the same as the object key
+			name: 'Google Docs',
+			support: 'in-development',
+			hostRegExp: new RegExp('^docs\.google\.com$', 'i'),
+			creators: [ // Who wrote the 80%+ of the skin?
+				{ name: 'Theis Villumsen', link: 'https://folkmann.it/' }
+			],
+			topContributors: [ // Top 3 contributors of fixes & improvements, excluding the creator
+			]
+		},
+		'cloudflare': {
+			key: 'cloudflare', // Must be the same as the object key
+			name: 'Cloudflare',
+			support: 'in-development',
+			hostRegExp: new RegExp('^www\.cloudflare\.com$', 'i'),
+			creators: [ // Who wrote the 80%+ of the skin?
+				{ name: 'Theis Villumsen', link: 'https://folkmann.it/' }
+			],
+			topContributors: [ // Top 3 contributors of fixes & improvements, excluding the creator
+			]
+		},
 		'youtube': {
 			key: 'youtube', // Must be the same as the object key
 			name: 'YouTube',
@@ -160,7 +182,7 @@ var CONFIG = {
 		'stackoverflow': {
 			key: 'stackoverflow', // Must be the same as the object key
 			name: 'StackOverflow',
-			support: 'in-development',
+			support: 'full',
 			hostRegExp: new RegExp('^stackoverflow\.com$', 'i'),
 			creators: [ // Who wrote the 80%+ of the skin?
 				{name: 'Nicolas Botello', link: 'http://nicolasbotello.com/'}
